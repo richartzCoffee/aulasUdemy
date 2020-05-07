@@ -8,6 +8,8 @@ caso informar um valor que não esta escrito retorna esse valor.
 
 lambdas são funções sem nome, que podem ou não reveber parametros de entrada.
 
+https://docs.python.org/3.7/library/collections.html#collections.defaultdict
+
 
 '''
 
