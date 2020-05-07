@@ -13,7 +13,7 @@ lambdas são funções sem nome, que podem ou não reveber parametros de entrada
 
 from collections import defaultdict
 
-dicionario = defaultdict(lambda :0)
+dicionario = defaultdict(lambda: 0)
 
 dicionario['teste'] = 'funciona assim'
 
