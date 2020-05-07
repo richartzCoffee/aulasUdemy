@@ -28,3 +28,12 @@ comprimeto(geek='5')
 
 
 #ordem correta
+
+def ordem(obrigatorio,*args,talvez=True,**kwargs):
+    print(f"{obrigatorio} {args} {talvez} {kwargs}")
+
+ordem(4,5,4,4,4,5,5,4,6,daniel = 45)
+
+da= {'daniel' : 45,'d':4}
+
+ordem(4,5,4,4,4,5,5,4,6,**da)
